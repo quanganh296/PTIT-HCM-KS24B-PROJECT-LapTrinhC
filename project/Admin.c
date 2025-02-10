@@ -19,7 +19,7 @@ char email[100];
 
   printf("Enter email: ");
 fgets(email, sizeof(email), stdin);
-email[strcspn(email, "\n")] = 0;  // Remove newline
+email[strcspn(email, "\n")] = 0;  
 
 
     printf("Enter password: ");

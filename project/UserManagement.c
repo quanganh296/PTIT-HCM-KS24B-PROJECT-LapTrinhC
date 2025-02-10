@@ -22,4 +22,7 @@ void addNewUser() {
 
     printf("User '%s' added successfully!\n", accounts[userCount - 1].username);
 }
+void findUserInfo(){
+	
+} 
 
